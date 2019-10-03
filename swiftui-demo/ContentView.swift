@@ -14,7 +14,9 @@ struct ContentView: View {
       Text("Welcome to my first app!")
         .fontWeight(.semibold)
         .foregroundColor(.green)
-      Button(action: {} ) {
+      Button(action: {
+        print("Button pressed!")
+      }) {
         Text("Hit Me!")
       }
     }
